@@ -22,7 +22,7 @@ name: Build
 
 on:
   workflow_dispatch:
-    inputs:
+  inputs:
       serverUrl: 'https://tv.soportedlr.com.ar'
         description: 'Server URL'     
         required: true
